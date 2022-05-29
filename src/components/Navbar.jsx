@@ -1,4 +1,5 @@
-import { Search } from "@material-ui/icons";
+import { Badge } from "@material-ui/core";
+import { Search, ShoppingCartOutlined } from "@material-ui/icons";
 import React from "react";
 import styled from "styled-components";
 
@@ -50,6 +51,12 @@ const Logo = styled.h1`
   font-weigth: bold;
 `;
 
+const MenuItem = styled.div`
+  font-size: 14px;
+  cursor: pointer;
+  margin-left: 25px;
+`;
+
 const Navbar = () => {
   return (
     <Container>
@@ -58,12 +65,21 @@ const Navbar = () => {
           <Language>EN</Language>
           <SearchContainer>
             <Input />
-            <Search />
+            <Search style={{color:"gray", fontsize:16}}/>
           </SearchContainer>
         </Left>
-        <Logo>PenguinCoding</Logo>
+        <Logo>TokoCeria</Logo>
         <Center>
-          <Right>Rigth</Right>
+          <Right>
+            <MenuItem>Register</MenuItem>
+            <MenuItem>SIGN IN</MenuItem>
+
+            <MenuItem>
+              <Badge badgeContent={4} color="error">
+                <ShoppingCartOutlined />
+              </Badge>
+            </MenuItem>
+          </Right>
         </Center>
       </Wrapper>
     </Container>
