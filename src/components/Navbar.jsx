@@ -48,7 +48,7 @@ const Input = styled.input`
 `;
 
 const Logo = styled.h1`
-  font-weigth: bold;
+  font-weight: bold;
 `;
 
 const MenuItem = styled.div`
@@ -65,7 +65,7 @@ const Navbar = () => {
           <Language>EN</Language>
           <SearchContainer>
             <Input />
-            <Search style={{color:"gray", fontsize:16}}/>
+            <Search style={{ color: "gray", fontsize: 16 }} />
           </SearchContainer>
         </Left>
         <Logo>TokoCeria</Logo>
@@ -75,7 +75,7 @@ const Navbar = () => {
             <MenuItem>SIGN IN</MenuItem>
 
             <MenuItem>
-              <Badge badgeContent={4} color="error">
+              <Badge badgeContent={4} color="error" overlap="rectangular">
                 <ShoppingCartOutlined />
               </Badge>
             </MenuItem>
