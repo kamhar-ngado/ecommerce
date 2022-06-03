@@ -12,7 +12,7 @@ const Container = styled.div`
 `;
 
 const Annauncements = () => {
-  return <Container>Gratis ongkir 50 ribu</Container>;
+  return <Container>Free shiping up to $100 </Container>;
 };
 
 export default Annauncements;

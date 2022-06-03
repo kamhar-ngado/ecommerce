@@ -1,5 +1,5 @@
 import { Badge } from "@material-ui/core";
-import { Search, ShoppingCartOutlined } from "@material-ui/icons";
+import { CenterFocusWeakOutlined, Search, ShoppingCartOutlined } from "@material-ui/icons";
 import React from "react";
 import styled from "styled-components";
 
@@ -68,7 +68,7 @@ const Navbar = () => {
             <Search style={{ color: "gray", fontsize: 16 }} />
           </SearchContainer>
         </Left>
-        <Logo>TokoCeria</Logo>
+        <Logo>Loreng < CenterFocusWeakOutlined /></Logo>
         <Center>
           <Right>
             <MenuItem>Register</MenuItem>
