@@ -8,7 +8,6 @@ const Container = styled.div`
   height: 100vh;
   display: flex;
   position: relative;
-  background-color: #dfe1e3;
 `;
 
 const Arrow = styled.div`
@@ -34,6 +33,7 @@ const Wrapper = styled.div`
   height: 100%;
   display: flex;
   transform: translateX(${(props) => props.slideIndex * -100}vw);
+  transition: all 1.5s ease;
 `;
 const Slide = styled.div`
   display: flex;
