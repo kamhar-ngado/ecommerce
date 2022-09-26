@@ -1,13 +1,13 @@
 import Home from "./Pages/Home";
 import Login from "./Pages/Login";
 import Register from "./Pages/Register";
-import Product from "./components/Product";
+import Product from "./Pages/Product"
 import ProductList from "./Pages/ProductList";
 
 const App = () => {
   return (
     <div>
-      <ProductList />
+      <Product />
     </div>
   );
 };
