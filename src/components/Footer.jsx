@@ -126,8 +126,8 @@ const Footer = () => {
       <Right>
         <Title>Contact</Title>
         <ContactItem>
-          <Room style={{ marginRight: "10px" }} /> 622 Dixie Path , South
-          Tobinchester 98336
+          <Room style={{ marginRight: "10px" }} /> +6212345678 Fish Island , South
+          Heaven 12345
         </ContactItem>
         <ContactItem>
           <Phone style={{ marginRight: "10px" }} /> +1 234 56 78
