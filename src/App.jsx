@@ -7,7 +7,7 @@ import ProductList from "./Pages/ProductList";
 const App = () => {
   return (
     <div>
-      <Product />
+      <Home />
     </div>
   );
 };
