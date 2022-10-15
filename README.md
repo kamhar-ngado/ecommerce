@@ -1,9 +1,9 @@
-## ecommerce
+## ecommerce API
 
-This is an API build using `node.js` and `mongodb`
-follow this step
-step 1: clone this app
-step 2: install dependensi bellow
+### This is an API build using `node.js` and `mongodb`
+### follow this step
+### step 1: clone this app
+### step 2: install dependensi bellow
 
 ```javascript
 "dependencies": {
