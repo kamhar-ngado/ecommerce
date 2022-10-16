@@ -83,7 +83,7 @@ const Navbar = () => {
           </SearchContainer>
         </Left>
         <Logo>
-          Loreng <CenterFocusWeakOutlined />
+          Meong Shop <CenterFocusWeakOutlined />
         </Logo>
         <Center>
           <Right>
