@@ -8,8 +8,7 @@ const Container = styled.div`
       rgba(255, 255, 255, 0.5),
       rgba(255, 255, 255, 0.5)
     ),
-    url("https://images.pexels.com/photos/6984661/pexels-photo-6984661.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
-      center;
+    url("https://i.ibb.co/nRXXfGr/img8.jpg");
   background-size: cover;
   display: flex;
   align-items: center;
@@ -19,7 +18,7 @@ const Container = styled.div`
 const Wrapper = styled.div`
   width: 40%;
   padding: 20px;
-  background-color: white;
+  background-color: #ffffff7a;
   ${mobile({ width: "75%" })}
 `;
 
