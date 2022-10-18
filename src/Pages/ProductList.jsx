@@ -40,8 +40,8 @@ const ProductList = () => {
   return (
     <Container>
       <Navbar />
-      <Annauncements />
-      <Title>Dresses</Title>
+      <Annauncements />                                                                                                                                       
+      <Title>Fish Market</Title>
       <FilterContainer>
         <Filter>
           <FilterText>Filter Products:</FilterText>
