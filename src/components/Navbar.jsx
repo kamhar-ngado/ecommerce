@@ -1,6 +1,5 @@
 import { Badge } from "@material-ui/core";
 import {
-  CenterFocusWeakOutlined,
   Search,
   ShoppingCartOutlined,
 } from "@material-ui/icons";
@@ -11,6 +10,7 @@ import { Link } from "react-router-dom";
 
 const Container = styled.div`
   height: 60px;
+  color: #ff6200;
   ${mobile({ height: "50px" })}
 `;
 
@@ -61,14 +61,14 @@ const Input = styled.input`
 
 const Logo = styled.h1`
   font-weight: bold;
-  ${mobile({ fontSize: "24px" })}
+  ${mobile({ fontSize: "1em", flex: 2, justifyContent: "center", color:"blue" })}
 `;
 
 const MenuItem = styled.div`
   font-size: 14px;
   cursor: pointer;
   margin-left: 25px;
-  ${mobile({ fontSize: "12px", marginLeft: "10px" })}
+  ${mobile({ fontSize: "12px" })}
 `;
 
 const Navbar = () => {
@@ -83,7 +83,7 @@ const Navbar = () => {
           </SearchContainer>
         </Left>
         <Logo>
-          Meong Shop <CenterFocusWeakOutlined />
+          Meong Shop 
         </Logo>
         <Center>
           <Right>
